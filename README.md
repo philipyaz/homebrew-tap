@@ -3,7 +3,7 @@
 Personal Homebrew tap.
 
 ```bash
-brew install --cask --no-quarantine philipyaz/tap/p215-scan
+HOMEBREW_CASK_OPTS=--no-quarantine brew install --cask philipyaz/tap/p215-scan
 ```
 
 | Cask | Description |
