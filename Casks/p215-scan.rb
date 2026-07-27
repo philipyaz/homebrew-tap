@@ -7,7 +7,7 @@ cask "p215-scan" do
   desc "Native app for the Canon imageFORMULA P-215II document scanner"
   homepage "https://github.com/philipyaz/p215-scan"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
   depends_on arch: :arm64
   depends_on formula: "sane-backends"
 
