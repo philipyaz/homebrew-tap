@@ -14,9 +14,8 @@ cask "p215-scan" do
   app "P215 Scan.app"
 
   caveats <<~EOS
-    P215 Scan is not notarized. If you installed without
-    HOMEBREW_CASK_OPTS=--no-quarantine,
-    allow the first launch via System Settings -> Privacy & Security -> Open Anyway.
+    P215 Scan is not notarized. If macOS blocks the first launch, allow it
+    via System Settings -> Privacy & Security -> Open Anyway.
 
     Scanning needs the scanner's rear Auto Start switch set to OFF.
   EOS
