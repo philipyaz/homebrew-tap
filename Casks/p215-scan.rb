@@ -1,6 +1,6 @@
 cask "p215-scan" do
-  version "1.0.0"
-  sha256 "179cf16b3e13c77dca6ec5b1077eb567368a36e3726bdf913654183d192c6c87"
+  version "1.1.0"
+  sha256 "6b38af6179a6e15b77d75c2eb01d55db591a2eeb5effdc4aaf1b6debb7856eb2"
 
   url "https://github.com/philipyaz/p215-scan/releases/download/v#{version}/P215.Scan-#{version}.zip"
   name "P215 Scan"
@@ -9,7 +9,6 @@ cask "p215-scan" do
 
   depends_on macos: :sonoma
   depends_on arch: :arm64
-  depends_on formula: "sane-backends"
 
   app "P215 Scan.app"
 
